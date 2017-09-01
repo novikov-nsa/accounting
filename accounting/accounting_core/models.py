@@ -25,4 +25,9 @@ class Operations(models.Model):
     segmentKt9 = models.CharField(max_length=200)
     segmentKt10 = models.CharField(max_length=200)
     sumOperaton = models.FloatField()
+    operationComment = models.CharField(max_length=2000)
+    operationDate = models.DateField()
+    typeDoc = models.CharField(max_length=200)
+    numDoc = models.CharField(max_length=200)
+    dateDoc = models.DateField()
 
